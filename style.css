@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+#container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  width: 400px;
+  height: 500px;
+}
+#heading {
+  background-color: rgb(152, 152, 219);
+  padding: 25px;
+  text-align: center;
+  margin: auto;
+  border-radius: 3px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+#emi {
+  padding: 18px;
+  text-align: center;
+  margin: auto;
+  font-size: larger;
+  font-weight: 600;
+  border-radius: 3px;
+}
+.label-class {
+  display: block;
+  font-size: large;
+  margin-top: 20px;
+  text-align: left;
+  color: #000;
+  margin-bottom: 9px;
+  font-weight: 530;
+}
+.h2-class {
+  text-align: center;
+}
+.amount-year-interest {
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #000;
+  outline: none;
+}
+
+.amount-year-interest:focus {
+  border-bottom: 2.5px solid rgb(48, 48, 58);
+}
+
+.amount-year-interest:focus::placeholder {
+  visibility: hidden;
+}
+
+.amount-year-interest::placeholder {
+  color: #888;
+  font-size: medium;
+  padding-left: 0%;
+}
+
+.error-message {
+  color: red;
+  font-size: small;
+  margin-top: 5px;
+}
+
+#clearBtn {
+  margin-left: 260px;
+}
+
+.btn-class {
+  padding: 10px 10px 10px 10px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
